@@ -1,0 +1,305 @@
+/* 清除元素的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.fr .icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+/* 让所有斜体不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+/* 去掉列表的小数点 */
+li {
+    list-style: none;
+}
+/* 图片没有边框 去掉图片底部的空白间隙 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/* 让按钮变成小手 */
+button {
+    cursor: pointer;
+}
+/* 通用红色字体颜色 */
+.style-red {
+    color: #C81623;
+}
+/* 利用li标签画竖线 */
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 12px 0;
+}
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #F1F1F1;
+}
+.font {
+    font-size: 12px;
+}
+.shortcut li {
+    float: left;
+}
+/* header开始 */
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    height: 56px;
+    width: 175px;
+    top: 25px;
+    left: 0;
+}
+.header h1 a {
+    display: block;
+    height: 56px;
+    width: 175px;
+    overflow: hidden;
+    /* 将文件移出盒子 并进行隐藏 */
+    text-indent: -999px;
+    background-image: url(../img/logo.png);
+}
+
+.search {
+    position: absolute;
+    left: 348px;
+    top: 25px;
+}
+
+.search .text {
+    float: left;
+    height: 32px;
+    border: 2px solid #B1191A;
+    width: 445px;
+    color: #ccc;
+    padding-left: 10px;
+}
+.btn {
+    float: left;
+    width: 85px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #B1191A;
+    border: 0;
+}
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 348px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 62px;
+    width: 140px;
+    height: 36px;
+    text-align: center;
+    background-color: #F7F7F7;
+    border: 1px solid #dfdfdf;
+    line-height: 36px;
+}
+.car {
+    font-family: 'icomoon';
+    color: #DA5555;
+    margin-right: 8px;
+}
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+.count {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    background-color: #E60012;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+/* header结束 */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #B1191A;
+}
+.dropdown {
+    height: 45px;
+    width: 210px;
+}
+.dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #B1191A;
+}
+.dd {
+    margin-top: 2px;
+    height: 465px;
+    width: 210px;
+    background-color: #C81623;
+}
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 10px;
+}
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+.menu_item:hover {
+    background-color: #fff;
+}
+.menu_item:hover a {
+    color: #C81623;
+}
+.menu_item i {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}
+.navitems {
+    margin-left: 10px;
+}
+.navitems li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+}
+.navitems li a {
+    font-size: 16px;
+}
+.footer {
+    height: 410px;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+}
+.mod_service {
+    height: 78px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 78px;
+}
+.mod_service_zheng {
+    /* i是行类元素，给了浮动可以直接设置宽和高 */
+    float: left;
+    width: 51px;
+    height: 51px;
+    margin-left: 30px;
+    background: url('../img/icons.png') no-repeat -252px -3px;
+}
+.mod_service_title {
+    float: left;
+    height: 51px;
+}
+.mod_service_title h5 {
+    margin: 5px;
+}
+.mod_service_title p {
+    margin: 5px;
+}
+.mod_service_che {
+    /* i是行类元素，给了浮动可以直接设置宽和高 */
+    float: left;
+    width: 51px;
+    height: 51px;
+    margin-left: 30px;
+    background: url('../img/icons.png') no-repeat -253px -54px;
+}
+.mod_service_bao {
+    /* i是行类元素，给了浮动可以直接设置宽和高 */
+    float: left;
+    width: 51px;
+    height: 51px;
+    margin-left: 30px;
+    background: url('../img/icons.png') no-repeat -255px -105px;
+}
+.mod_service_jiang {
+    /* i是行类元素，给了浮动可以直接设置宽和高 */
+    float: left;
+    width: 51px;
+    height: 51px;
+    margin-left: 30px;
+    background: url('../img/icons.png') no-repeat -256px -157px;
+}
+.mod_service_wen {
+    /* i是行类元素，给了浮动可以直接设置宽和高 */
+    float: left;
+    width: 51px;
+    height: 51px;
+    margin-left: 30px;
+    background: url('../img/icons.png') no-repeat -255px -208px;
+}
+.mod_help {
+    height: 186px;
+    border-bottom:  1px solid #ccc;
+}
+.mod_help dl {
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+.mod_help dl dt {
+    height: 23px;
+    font-size: 15px;
+}
+.mod_help dl dd a {
+    display: block;
+    font-size: 11px;
+    height: 22px;
+}
+.help dt {
+    width: 89px;
+    height: 31px;
+    text-align: center;
+}
+.help img {
+    margin-top: 6px;
+}
+.help dd {
+    width: 89px;
+    text-align: center;
+    padding-top: 8px;
+}
+.footer_items {
+    margin-top: 20px;
+    text-align: center;
+}
+.footer_items p {
+    margin: 15px 0;
+}

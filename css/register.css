@@ -1,0 +1,127 @@
+li {
+    list-style: none;
+}
+.head {
+    height: 82px;
+    border-bottom: 2px solid #B1191A;
+}
+.head a img {
+    padding-top: 15px;
+}
+.regis_area {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.regis_head {
+    position: relative;
+    height: 42px;
+    background-color: #ECECEC;
+    border-bottom: 1px solid #ccc;
+}
+.register {
+    padding: 0 10px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+}
+.regis_login {
+    height: 42px;
+    font-size: 13px;
+    line-height: 42px;
+    margin-right: 10px;
+}
+.regis_login a {
+    color: #C81623;
+}
+.regis_form {
+    width: 620px;
+    height: 420px;
+    margin: 35px auto;
+}
+.regis_form li {
+    margin: 10px 0;
+}
+.regis_form label {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: right;
+}
+.inp {
+    margin-left: 10px;
+    width: 237px;
+    height: 33px;
+    border: 1px solid #ccc;
+}
+.error_icon {
+    display: inline-block;
+    background: url('../img/error.png');
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.error {
+    color: #C81623;
+    margin-left: 5px;
+}
+.correct {
+    color: #40B83F;
+    margin-left: 5px;
+}
+.correct_icon {
+    display: inline-block;
+    background: url('../img/success.png');
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.safe {
+    padding-left: 180px;
+    color: red;
+}
+.safe span {
+    display: inline-block;
+    width: 36px;
+    height: 16px;
+    margin-left: 5px;
+    line-height: 16px;
+    text-align: center;
+}
+.ruo {
+    background-color: #DE1111;
+    color: #FFFFFF;
+}
+.zhong {
+    background-color: #40B83F;
+    color: #FFFFFF;
+}
+.qiang {
+    background-color: #F79100;
+    color: #FFFFFF;
+}
+.agree {
+    padding-top: 15px;
+    padding-left: 100px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree a {
+    color: #1BA1E6;
+}
+.finish {
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 170px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #C81623;
+    color: #FFFFFF;
+}
+.w p {
+    text-align: center;
+}

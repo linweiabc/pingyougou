@@ -1,0 +1,263 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 218px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    height: 455px;
+    width: 721px;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li {
+    float: left;
+}
+.newsflash {
+    height: 455px;
+    width: 250px;
+    overflow: hidden;
+}
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    display: none;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 4px;
+    z-index: 2;
+}
+.arrow_r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    left: 52px;
+    bottom: 10px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.news {
+    height: 162px;
+    border: 1px solid #ccc;
+}
+.lifeservice {
+    height: 209px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+.bargain {
+    margin-top: 6px;
+    height: 75px;
+}
+.news_hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.news_hd a {
+    float: right;
+    font-family: 'icomoon';
+}
+.news_bd {
+    margin: 12px 0 0 12px;
+}
+.news_bd a {
+    line-height: 22px;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 68px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.lifeservice a {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.huafei {
+    display: block;
+    height: 24px;
+    width: 22px;
+    margin: 9px auto;
+    background: url('../img/icons.png') no-repeat -19px -16px;
+}
+.lifeservice P {
+    text-align: center;
+}
+.jipiao {
+    display: block;
+    height: 24px;
+    width: 22px;
+    margin: 9px auto;
+    background: url('../img/icons.png') no-repeat -81px -16px;
+}
+.lifeservice a img {
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+.recommend {
+    height: 162px;
+    margin-top: 10px;
+}
+.recom_bd {
+    float: left;
+    height: 162px;
+    width: 200px;
+    text-align: center;
+    background-color: #5C5251;
+}
+.recom_bd img {
+    margin: 30px 0 10px 0;
+}
+.recom_bd p {
+    color: #fff;
+    font-size: 20px;
+}
+.recom_hd {
+    height: 162px;
+    float: left;
+    background-color: #EBEBEB;
+}
+.recom_hd img {
+    margin-top: 9px;
+}
+.box-hd {
+    height: 27px;
+    margin-top: 26px;
+    border-bottom: 2px solid #C81623;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 17px;
+    color: #C81623;
+}
+.hot {
+    float: right;
+    height: 20px;
+    padding-right: 20px;
+}
+.hot li {
+    float: left;
+}
+.spacer2 {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 5px 12px 0;
+}
+.box-bd {
+    height: 360px;
+}
+.w209 {
+    float: left;
+    width: 209px;
+    text-align: center;
+}
+.w330 {
+    float: left;
+    width: 330px;
+}
+.w219 {
+    float: left;
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w209 ul {
+    height: 127px;
+}
+.w209 div {
+    height: 233px;
+}
+.w209 ul li {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    width: 86px;
+    margin: 5px 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.floor-1 {
+    height: 178px;
+    border-bottom: 1px solid #ccc;
+}
+.elevater {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 65px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.elevater .goback {
+    display: none;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    color: #C81623;
+}
+.elevater li {
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+.elevater li a {
+    font-size: 13px;
+}
+.first {
+    background-color: #C81623;
+}
+.first a {
+    color: #F1F0F1;
+}
+.box-bd li {
+    overflow: hidden;
+}
+.box-bd img {
+    /* transition: 要过渡的属性  花费时间  运动曲线  何时开始; */
+    transition: all 0.3s ease 0s;
+}
+.box-bd img:hover {
+    transform: scale(1.05)
+}
+.menu_item {
+    transition: all 0.5s ease 0s;
+}
+.menu_item:hover {
+    margin-left: 8px;
+}

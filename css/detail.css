@@ -1,0 +1,290 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;  /*ie6,7 专门清除浮动的样式*/
+}
+.crumb_wrap {
+    margin-top: 20px;
+}
+.crumb_wrap a {
+    margin-right: 10px;
+}
+.product_intro {
+    margin-top: 10px;
+}
+.prew_wrap {
+    width: 400px;
+    height: 590px;
+}
+.prew_wrap .prew_list {
+    margin-top: 60px;
+}
+.pre_img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #CCCCCC;
+}
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: #FEDE4F;
+    opacity: 0.5;
+    cursor: move;
+    background: 1px solid #ccc;
+}
+.big {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 430px;
+    width: 500px;
+    height: 500px;
+    z-index: 999;
+    overflow: hidden;
+}
+.bigImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.prew_wrap a {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'icomoon';
+    font-weight: 700;
+    font-size: 40px;
+    color: #DFDFDF;
+}
+.prevpro {
+    border: 2px solid #C81623;
+}
+.prew_wrap span img {
+    width: 55px;
+    height: 55px;
+}
+.itemInfo_wrap {
+	width: 718px;
+}
+.sku_name {
+	height: 30px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.news {
+	height: 32px;
+	color: #e12228;
+}
+.summary dl {
+	overflow: hidden;
+}
+.summary dt,
+.summary dd {
+	float: left;
+}
+.summary dt {
+	width: 60px;
+	padding-left: 10px;
+	line-height: 36px;
+}
+.summary_price ,
+.summary_promotion {
+	position: relative;
+	padding: 10px 0;
+	background-color: #fee9eb;
+}
+.price {
+	font-size: 24px;
+	color: #e12228;
+}
+.summary_price a {
+	color: #c81623;
+}
+.remark {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+.summary_promotion {
+	padding-top: 0;
+}
+.summary_promotion dd {
+	width: 450px;
+	line-height: 36px;
+}
+.summary_promotion em {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+.summary_support dd {
+    line-height: 36px;
+}
+.choose_color {
+    margin-bottom: 10px;
+}
+.choose_color dd {
+    line-height: 36px;
+}
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+.cur_col {
+    border: 1px solid #c81623;
+}
+.amount {
+    position: relative;
+    width: 48px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #ccc;
+}
+.amount input {
+    height: 45px;
+    width: 30px;
+    text-align: center;
+    border: none;
+}
+.addcar {
+    width: 142px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #C81623;
+    color: #FFFFFF;
+    font-size: 19px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.add,
+.reduce {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #F1F1F1;
+}
+.add {
+    top: 0;
+    right: 0;
+}
+.reduce {
+    bottom: 0;
+    right: 0;
+}
+.reduce:hover {
+    cursor: not-allowed;
+}
+.product_detail .aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+.product_detail .detail {
+    width: 978px;
+}
+.first_tab li {
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    background-color: #F1F1F1;
+}
+.tab_list {
+    height: 33px;
+}
+.tab_list .current {
+     background-color: #fff;
+     border-bottom: 0;
+     color: red;
+}
+.first_tab {
+    display: block;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    width: 103px;
+    border-right: 1px solid #ccc;
+}
+.second_tab {
+    display: block;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    width: 103px;
+}
+.tab_con {
+    display: block;
+    margin: 0 10px;
+}
+
+.tab_con h5 {
+    /* 超出的文字用省略号显示 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.tab_con h4 {
+    margin-top: 10px;
+}
+.tab_con a {
+    display: block;
+    text-align: center;
+    margin-left: 48px;
+    margin-bottom: 12px;
+    width: 88px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #F7F7F7;
+    border: 1px solid #ccc;
+}
+.tab_con li {
+    border-bottom: 1px solid #ccc;
+}
+.detail_list {
+    width: 975px;
+    height: 40px;
+    background-color: #F1F1F1;
+    border: 1px solid #ccd;
+}
+.detail_list li {
+    float: left;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+.detail_list .current {
+    background-color: #C81623;
+}
+.detail_list .current a {
+    color: #FFFFFF;
+}
+.detail_con {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.detail_con .item li {
+    padding: 3px 0;
+}
+.item h5 a {
+    font-size: 15px;
+    font-family: 'icomoon';
+}
